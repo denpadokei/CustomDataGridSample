@@ -27,9 +27,8 @@ namespace CustomDataGridSample
             return true;
         }
 
-        /// <summary>説明 を取得、設定</summary>
+        
         private ObservableCollection<SortTargetEntity> _sortTargets;
-        /// <summary>説明 を取得、設定</summary>
         public ObservableCollection<SortTargetEntity> SortTargets
         {
             get => this._sortTargets;
