@@ -17,8 +17,12 @@
         <DataGrid Grid.Column="0" ItemsSource="{Binding SortTargets}" AutoGenerateColumns="True">
             
         </DataGrid>
-        <local:CustomDataGrid Grid.Column="1" ItemsSource="{Binding SortTargets}" AutoGenerateColumns="True">
+        <!--<local:CustomDataGrid Grid.Column="1" ItemsSource="{Binding SortTargets}" AutoGenerateColumns="True">
             
-        </local:CustomDataGrid>
+        </local:CustomDataGrid>-->
+        <!--添付プロパティバージョン-->
+        <DataGrid Grid.Column="1" ItemsSource="{Binding SortTargets}" AutoGenerateColumns="True" local:RefreshSort.CanRefreshSorting="True">
+            
+        </DataGrid>
     </Grid>
 </Window>
