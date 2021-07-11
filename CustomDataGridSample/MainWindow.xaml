@@ -21,7 +21,7 @@
             
         </local:CustomDataGrid>-->
         <!--添付プロパティバージョン-->
-        <DataGrid Grid.Column="1" ItemsSource="{Binding SortTargets}" AutoGenerateColumns="True" local:RefreshSort.CanRefreshSorting="True">
+        <DataGrid Grid.Column="1" ItemsSource="{Binding SortTargets}" AutoGenerateColumns="True" local:RefreshSorting.CanRefreshSorting="True">
             
         </DataGrid>
     </Grid>
